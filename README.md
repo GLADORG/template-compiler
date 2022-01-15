@@ -1,2 +1,4 @@
-# template-compiler
-Compiles handlebars templates into json and inserts it into an Ada specification.
+# Template Compiler
+
+Compiles Handbars and Glimmer templates into a represention suitable for the GlimmerVM
+

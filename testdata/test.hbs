@@ -1,0 +1,9 @@
+﻿whatever
+{{! Test }}
+{{#each this.items as |item|}}
+  {{!-- --}}
+  <U @arg1={{item}} />
+{{/each}}
+<C @arg1="blah1" @arg2={{blah2}} @arg3={{true}} as |block1 block2|>
+  blah
+</C>

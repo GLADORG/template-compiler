@@ -1,0 +1,14 @@
+name = "templatecompiler"
+description = "Compiles Handlebars and Glimmer templates"
+long-description = "Compiles Handlebars and Glimmer templates into a representation suitable for the GlimmerVM"
+version = "0.0.1"
+licenses = "CC0-1.0"
+website = "https://github.com/GLADORG/template-compiler"
+tags = ["compiler", "handlebars","glimmer"]
+authors = ["Bent Bracke"]
+maintainers = ["Bent Bracke <bent@bracke.dk>"]
+maintainers-logins = ["bracke"]
+
+executables = ["templatecompiler"]
+[[depends-on]]  # Added by alr
+gnatcoll = "^21.0.0"  # Added by alr
